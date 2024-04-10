@@ -1,0 +1,231 @@
+/* App.css */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.whole-page {
+  display: flex;
+}
+
+
+.navbar-container {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  padding: 5px; 
+  flex-wrap: wrap;
+  justify-content: center; /* Center items horizontally */
+}
+
+.navbar-container h3 {
+  margin-bottom: 10px;
+  width: 100px;
+  padding: 10px;
+  border: 1px solid black;
+  color: black;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.navbar-container a {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 10px;
+}
+
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .whole-page {
+    flex-direction: column;
+  }
+
+  .navbar-container {
+    width: 100%;
+  }
+}
+
+.weather-container {
+  flex: 3; /* Take up more space than nav-container */
+}
+
+.weather-card {
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.weather-card img {
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+  margin-top: 10px;
+}
+
+.cards{
+  border: 2px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex; /* Add this line */
+  flex-direction: row; /* Display children horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.list-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f8f8f8 20%;
+}
+
+.weather-summary-card {
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.img-icon{
+  height: 100px;
+  width: 100px;
+}
+
+.weather-detail-box {
+  width: 200px; 
+  height: 150px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.weather-detail-box h6 {
+  margin-bottom: 5px;
+}
+
+.weather-container {
+  flex: 3; 
+}
+
+.beau {
+  flex: 1;
+}
+
+/*        HELOo*/
+
+.whole-page {
+  display: flex;
+}
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .whole-page {
+    flex-direction: column;
+  }
+
+  .navbar-container {
+    width: 100%;
+    flex-direction: row; 
+  }
+}
+
+.list-container {
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.list-container li {
+  width: 24%; 
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; /* Optional: Add border */
+  border-radius: 5px; 
+}
+
+body {
+  background-image: url('/assets/cloud.jpeg');
+  background-size: cover; 
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+
+}
+
+/* For user input*/
+/* App.css */
+.user-input {
+  height: 30px;
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgba(156, 151, 255, 0.5);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.slider {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 50px;
+  width: 300px;
+  margin: 0 auto;
+  margin: 10px;
+  margin: 0 auto;
+}
+
+.slider::-webkit-slider-thumb {
+  width: 20px;
+  height: 20px;
+
+  margin: 0 auto;
+  background-color: #007bff;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background-color: #007bff;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8px;
+  background-color: hsl(0, 0%, 80%);
+  border-radius: 5px;
+}
+
+.slider::-moz-range-track {
+  width: 100%;
+  height: 8px;
+  background-color: #ccc;
+  border-radius: 5px;
+}
+
+.lil-box{
+  border: 2px solid #fff;
+  width: 70%;
+  display: flex;
+  margin: 0 auto;
+
+  background-color: rgba(0, 0, 0, 0.2);
+}

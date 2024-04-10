@@ -1,0 +1,19 @@
+
+.header {
+    display: flex;
+    justify-content: space-between; /* To evenly space the h3 elements */
+}
+
+.list-container ul {
+    width: 80%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+  }
+  
+  .list-container li {
+    display: inline-block; /* Display items inline */
+    margin-right: 20px; /* Adjust margin between items */
+  }
+  
